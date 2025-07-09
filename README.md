@@ -1,34 +1,36 @@
-Project Name - Noteroom-backend
+# Project Noteroom-backend
 
-🚀 Prerequisites
+This project was bootstrapped with Nodejs and mongoDB
+
+# Prerequisites
 Make sure you have the following installed on your machine:
 
-Node.js
-npm
+### Node.js
+### npm
 
-- Clone the repository
+# Clone the repository
   
-git clone https://github.com/Manishrajwar/noteroom-backend.git
+### git clone https://github.com/Manishrajwar/noteroom-backend.git
 
-- Navigate to the project folder
+# Navigate to the project folder
   
-cd noteroom-backend
+### cd noteroom-backend
 
-- Install dependencies
+# Install dependencies
   
-npm install
+### npm install
 
-- start server
+# start server
   
-node server.js
+### node server.js
 
-- .env file Details
+# .env file Details
 
-PORT=3001
+### PORT=3001
 
-DATABASE_URL=your_mongodb_connection_string
+### DATABASE_URL=your_mongodb_connection_string
 
-FRONTEND_URL=<frontend_url>
+### FRONTEND_URL=<frontend_url>
 
 
 
