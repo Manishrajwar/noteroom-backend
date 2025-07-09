@@ -12,10 +12,8 @@ app.use(express.json());
 
 let PORT = process.env.PORT || 30001
 
-const allowOrigin = [process.env.FRONTEND_URL || "https://noteroom-frontend-1.onrender.com"];
-
 app.use(cors({
-  origin: allowOrigin, 
+  origin: ["https://noteroom-frontend-1.onrender.com" , "https://noteroom-frontend-1.onrender.com/"], 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
