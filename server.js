@@ -24,18 +24,11 @@ app.use("/api/v1", router);
 const dbConnect = require("./db/user_conn");
 dbConnect();
 
-// mongoose.connect(process.env.DATABASE_URL, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-//   useFindAndModify: false,
-//   useCreateIndex: true,
-// });
-
   
 
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.FRONTEND_URL,
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
