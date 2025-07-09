@@ -89,3 +89,7 @@ io.on("connection", (socket) => {
 httpServer.listen(PORT, () => {
   console.log(`HTTP & Socket.IO server listening on port ${PORT}`);
 });
+
+app.get('/' , (req ,res)=>{
+  res.send("Hello users");
+})
