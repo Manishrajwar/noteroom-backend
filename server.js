@@ -20,12 +20,18 @@ app.use(cors({
 
 app.use("/api/v1", router);
 
-mongoose.connect(process.env.DATABASE_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false,
-  useCreateIndex: true,
-});
+
+const dbConnect = require("./db/user_conn");
+dbConnect();
+
+// mongoose.connect(process.env.DATABASE_URL, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useFindAndModify: false,
+//   useCreateIndex: true,
+// });
+
+  
 
 const io = new Server(httpServer, {
   cors: {
