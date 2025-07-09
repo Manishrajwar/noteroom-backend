@@ -7,16 +7,20 @@ Node.js
 npm
 
 - Clone the repository
-*  git clone https://github.com/Manishrajwar/noteroom-backend.git
+  
+git clone https://github.com/Manishrajwar/noteroom-backend.git
 
 - Navigate to the project folder
-* cd noteroom-backend
+  
+cd noteroom-backend
 
 - Install dependencies
-* npm install
+  
+npm install
 
 - start server
-* node server.js
+  
+node server.js
 
 - .env file Details
 
