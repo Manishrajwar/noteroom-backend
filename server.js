@@ -13,7 +13,7 @@ app.use(express.json());
 let PORT = process.env.PORT || 30001
 
 app.use(cors({
-  origin: ["*"], 
+  origin: "*", 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
