@@ -21,7 +21,9 @@ npm
 - .env file Details
 
 PORT=3001
+
 DATABASE_URL=your_mongodb_connection_string
+
 FRONTEND_URL=<frontend_url>
 
 
